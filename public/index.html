@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shastrartha</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://kit.fontawesome.com/aec78ba9b5.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/aec78ba9b5.js" crossorigin="anonymous"></script>
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <link rel="icon" href="images/favicon.ico?v=2">
+</head>
+
+<body>
+    <div class="intro">
+        <!-- <img class="baba" src="images/baba.png" alt=""> -->
+        <div class="container">
+            <img class="logo" src="images/logo.png" alt="LOGO">
+            <h1 class="Big">Shastrartha</h1>
+        </div>
+        <div class="row" style="margin:0">
+            <div class="col-lg-6" style="padding:0">
+                <div class="def">
+                    <h2 class="big-heading">Shastrartha is a type of intellectual debate prevalent in India. It was a kind
+                        of philosophical and religious debates in which scholars participated to reveal the inner meaning of
+                        Hindu scriptures known as the shastras.</h2>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <form class="form-inline readDoc" action="/read" method="post">
+                    <div class="form-group mx-sm-3 mb-2">
+                        <h3 class="shastraGyan">
+                            Shastra Gyan
+                        </h3>
+                    </div>
+                    <input type="text" class="form-control ipRead" placeholder="Enter the topic" name="inputText">
+                    <button type="submit" class="btn btn-dark btn-lg download-button"><i
+                            class="fa-solid fa-book-open"></i>
+                        Read</button>
+                </form>
+                <form action="/" method="post" class="st-debate">
+                    <button type="submit" class="btn btn-dark btn-lg download-button readBtn"><i
+                            class="fa-solid fa-rocket fa-beat"></i> Start
+                        Shastrartha</button>
+                </form>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="chanakya row"">
+
+        <div class="col-lg-5 about">
+            <h2 class="Title">Your Guru</h2>
+            <h3 class="big-heading1">Chanakya was a skilled strategist and played a key role in the rise of
+                Chandragupta Maurya, who went on to become the founder of the Mauryan Empire. He is also credited
+                with laying the foundation for the first unified state in India. Chanakya's ideas and teachings have
+                had a profound influence on Indian political thought and continue to be studied and
+                admired to this day.</h3>
+        </div>
+        <div class="col-lg-3">
+            <img src="images/ch-6.png" alt="Chanakya" class="cimg">
+        </div>
+        <div class="col-lg-2 restpg">
+            <img src="images/sholka.png" alt="Shlok" class="shlok">
+            <button type="submit" class="btn btn-dark btn-lg download-button bookBtn"><i class="fa-solid fa-book"></i>
+                <a href="https://drive.google.com/file/d/1KyaLOUaTcHGMTpj3WH8EtNpdCV-vf8Dt/view?usp=sharing"
+                    style="text-decoration: none;color:#ffffff">Arthashastra</a></button>
+        </div>
+
+
+
+    </div>
+    <!-- <script>async function redirect(){
+        const response=await fetch("http://localhost:3000/read",{
+            method:"POST"
+        })
+        window.location.href="http://localhost:3000/read"
+    }</script> -->
+</body>
+
+</html>

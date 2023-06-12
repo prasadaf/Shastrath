@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Amita:wght@400;700&family=Asul:wght@400;700&family=Merienda:wght@700;800&family=Quintessential&display=swap');
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    background-color:#000;
+    
+}
+.intro {
+    height: 100vh;
+    background-image: url('./images/temple.jpeg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+.baba {
+    width:45%;
+    position:relative;
+    top:50px;
+}
+.Big{
+    font-family:'Amita', cursive;
+    font-weight:700;
+    font-size: 5.5rem;
+    text-align:center;
+    padding-top:55px;
+    padding-right:100px;
+    text-shadow: 2px 2px 8px #fff;
+    color:#541212;
+    
+}
+.logo {
+    width:170px;
+    padding-top:12px;
+}
+.container {
+    display:flex;
+    justify-content:center;
+}
+
+.big-heading {
+    padding:30px 100px 0 30px;
+    line-height:1.35;
+    color:#f6f1e9;
+    text-align:left;
+    font-family: 'Asul', sans-serif;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.def {
+    /* background:rgba(255,255,255,.15); */
+    /* box-shadow: 2px 2px 8px #000; */
+    border-radius:25px;
+    /* padding-left:50px; */
+}
+.readDoc {
+    margin-top:143px;
+    padding:15px 0 15px;
+    background: rgba(255,255,255,.15);
+    box-shadow: 2px 2px 8px #000;
+    border-radius:25px;
+}
+.ipRead {
+    width:400px;
+    margin:15px;
+    display:inline-block;
+}
+
+input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1.5px solid #000;
+     color: #000;
+     padding-left: 10px;
+    }
+    
+input[type=text]:focus {
+     outline: none;
+     border: 1.5px solid #000;
+     color: #000;
+}
+
+.readBtn {
+    height: 50px;
+    width:250px;
+    margin:auto;
+    font-size:1.2rem;
+}
+
+.st-debate{
+    padding-top:20px;
+    padding-right:450px;
+}
+
+.shastraGyan{
+    font-family:'Quintessential', cursive;
+    font-weight: 600;
+    color:#541212;
+    text-shadow: 2px 2px 8px #fff;
+}
+.readDoc button{
+    color: #ffffff;
+}
+.st-debate button{
+    color: #ffffff;
+    padding-right: 10px;
+}
+/* *********************************************************************************************** */
+.chanakya {
+    padding:0px;
+    margin:0px;
+    height: 100vh;
+    background-image: url('./images/bg.jpeg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.cimg {
+    /* transform:rotate(6deg); */
+    width: 110%;
+    position:relative;
+    padding-top:165px;
+    left: -64px;
+}
+
+.big-heading1 {
+    padding:40px;
+    font-size:1.4rem;
+    font-weight:700;
+    line-height:1.35;
+    color:#000;
+    text-shadow: 2px 2px 8px #fff;
+    text-align:left;
+    font-family: 'Asul', sans-serif;
+}
+.about {
+    background: rgba(255,255,255,.15);
+    padding-top:60px 
+}
+
+.Title {
+    font-family:'Amita', cursive;
+    font-weight:700;
+    font-size: 4.4rem;
+    text-align:center;
+    padding-top:10px;
+    text-shadow: 2px 2px 8px #fff;
+    color:#541212;
+}
+
+.restpg {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5.5rem;
+}
+.shlok {
+    /* position:relative; */
+    padding-right:70px;
+    width:340%;
+    margin-right:5px;
+}
+
+.bookBtn {
+    position:relative;
+    width:11rem;
+    margin-right:90px;
+    color: #ffffff;
+    padding-right: 5px;
+}
+.bookBtn a{
+    text-decoration: none;
+    color:#ffffff
+}
+
+
+@media only screen and (min-width: 1366px) {
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align:center;
+    background-color:#000;
+    overflow-x: hidden;
+}
+.intro {
+    height: 100vh;
+    background-image: url('./images/temple.jpeg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+.baba {
+    width:45%;
+    position:relative;
+    top:50px;
+}
+.Big{
+    font-family:'Amita', cursive;
+    font-weight:700;
+    font-size: 6.5rem;
+    text-align:center;
+    padding-top:65px;
+    padding-right:100px;
+    text-shadow: 2px 2px 8px #fff;
+    color:#541212;
+    
+}
+.logo {
+    width:180px;
+    padding-top:25px;
+}
+.container {
+    display:flex;
+    justify-content:center;
+}
+
+.big-heading {
+    padding:50px 100px 0 30px;
+    line-height:1.35;
+    color:#f6f1e9;
+    text-align: left;
+    font-family: 'Asul', sans-serif;
+    font-size: 2.35rem;
+    text-shadow: 2px 2px 8px #000;
+}
+
+.def {
+    /* background:rgba(255,255,255,.15); */
+    /* box-shadow: 2px 2px 8px #000; */
+    border-radius:25px;
+    /* padding-left:50px; */
+}
+.readDoc {
+    margin-top:143px;
+    padding:15px 0 15px;
+    background: rgba(255,255,255,.15);
+    box-shadow: 2px 2px 8px #000;
+    border-radius:25px;
+}
+.ipRead {
+    width:500px;
+    margin:15px;
+    display:inline-block;
+}
+
+input[type=text]{
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+     border-radius: 20px;
+     border: 1.5px solid #000;
+     color: #000;
+     padding-left: 10px;
+    }
+    
+input[type=text]:focus {
+     outline: none;
+     border: 1.5px solid #000;
+     color: #000;
+}
+
+.shastraGyan{
+    font-family:'Quintessential',cursive;
+    font-size: 2rem;
+    font-weight: 600;
+    color:#541212;
+    text-shadow: 2px 2px 8px #fff;
+}
+.readBtn {
+    height: 60px;
+    width:300px;
+    margin:auto;
+    font-size:1.5rem;
+}
+
+.st-debate{
+    padding-top:20px;
+    padding-right:450px;
+}
+/* *********************************************************************************************** */
+.chanakya {
+    padding:0px;
+    margin:0px;
+    height: 100vh;
+    background-image: url('./images/bg.jpeg');
+    background-size: 100% 100%;
+    background-attachment:fixed;
+    background-repeat: no-repeat;
+}
+
+.cimg {
+    /* transform:rotate(6deg); */
+    width: 110%;
+    position:relative;
+    padding-top:192px;
+    left: -75px;
+}
+
+.big-heading1 {
+    padding:50px 40px 40px;
+    font-size:1.7rem;
+    font-weight:700;
+    line-height:1.4;
+    color:#000;
+    text-shadow: 2px 2px 8px #fff;
+    text-align:left;
+    font-family: 'Asul', sans-serif;
+}
+.about {
+    background: rgba(255,255,255,.15);
+    padding-top:60px 
+}
+
+.Title {
+    font-family:'Amita', cursive;
+    font-weight:700;
+    font-size: 5rem;
+    text-align:center;
+    padding-top:20px;
+    padding-left: 30px;
+    text-shadow: 2px 2px 8px #fff;
+    color:#541212;
+}
+
+.restpg {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin-top:5.5rem;
+}
+.shlok {
+    /* position:relative; */
+    padding-right: 63px;
+    width:315%;
+    margin-right:37px;
+}
+
+.bookBtn {
+    position:relative;
+    width:11rem;
+    margin-right:100px;
+}
+}
+
